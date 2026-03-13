@@ -1,61 +1,100 @@
-﻿<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact | Kruti Dev Blog</title>
-    <meta name="description" content="Contact page for the Kruti Dev Blog static website." />
-    <meta name="theme-color" content="#09090f" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body data-page="contact">
-    <div class="site-bg" aria-hidden="true">
-      <div class="orb orb-one"></div>
-      <div class="orb orb-two"></div>
-      <div class="orb orb-three"></div>
-      <div class="grid-glow"></div>
-    </div>
-    <div class="progress-bar" id="progressBar" aria-hidden="true"></div>
-    <header class="site-header">
-      <div class="container nav-shell">
-        <a class="brand" href="index.html"><span class="brand-mark"></span><span class="brand-text"><strong>Kruti Dev Blog</strong><small>Hindi Typography Companion</small></span></a>
-        <nav class="site-nav" aria-label="Primary navigation">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact and Support</title>
+  <meta name="description" content="Send questions about conversion quality, typing issues, and font workflows, and review frequently asked operational questions." />
+  <link rel="canonical" href="/contact.html" />
+  <meta name="theme-color" content="#070b14" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Kruti Dev to Unicode Companion","url":"/"}</script>
+</head>
+<body data-page="contact">
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="orb orb-c"></div>
+  </div>
+  <div id="readingProgress" class="reading-progress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-dot"></span>
+        <span class="brand-text">Kruti Dev to Unicode Companion</span>
+      </a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-label="Toggle menu">Menu</button>
+      <nav class="nav-links" data-menu aria-label="Primary navigation">
           <a href="index.html">Home</a>
           <a href="about.html">About</a>
-          <a href="typography-tips.html">Typography Tips</a>
-          <a href="technical-guides.html">Technical Guides</a>
-          <a href="content-creation.html">Content Creation</a>
-          <a href="single-post.html">Blog</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-        <a class="button button-primary magnetic" href="index.html">Open Converter</a>
-      </div>
-    </header>
-    <main>
-      <section class="page-hero-block section">
-        <div class="container page-intro reveal">
-          <p class="eyebrow">Contact</p>
-          <h1>Talk to us about Hindi publishing and conversion workflows.</h1>
-          <p class="lead">This page combines contact intent with long-form explanatory content so visitors understand what kind of questions, feedback, and collaboration requests the site is built to support.</p>
-        </div>
-      </section>
-      <section class="section section-alt">
-        <div class="container prose-block reveal" data-page-content></div>
-      </section>
-    </main>
-    <footer class="site-footer">
-      <div class="container footer-shell">
-        <div>
-          <strong>Kruti Dev Blog</strong>
-          <p>Static multi-page website for Hindi typing, Unicode conversion, and Devanagari publishing advice.</p>
-        </div>
-        <p><a href="privacy-policy.html">Privacy</a> | <a href="terms-and-conditions.html">Terms</a> | <a href="disclaimer.html">Disclaimer</a></p>
-      </div>
-    </footer>
-    <script src="script.js"></script>
-  </body>
-</html>
+          <a href="kruti-dev-to-unicode-guide.html">Guide</a>
+          <a href="kruti-dev-font-download.html">Kruti Dev Font</a>
+          <a href="mangal-font-guide.html">Mangal Font</a>
+          <a href="hindi-typing-tips.html">Typing Tips</a>
+          <a href="blog.html">Blog</a>
+          <a class="active" href="contact.html">Contact</a>
+      </nav>
+      <a class="cta-link" href="kruti-dev-to-unicode-guide.html">Open Main Guide</a>
+    </div>
+  </header>
 
+  <main>
+    <section class="hero section">
+      <div class="container hero-card reveal">
+        <p class="eyebrow">Contact</p>
+        <h1>Contact and Support</h1>
+        <p class="hero-lead">Reach out with your use case and we will help you choose the right conversion and post-conversion workflow.</p>
+      </div>
+    </section>
+
+    <section class="section">
+  <div class="container split reveal" data-delay="80">
+    <form class="contact-form panel" action="#" method="post" onsubmit="return false;">
+      <h2>Contact Team</h2>
+      <label>Name<input type="text" required /></label>
+      <label>Email<input type="email" required /></label>
+      <label>Subject<input type="text" required /></label>
+      <label>Message<textarea rows="6" required></textarea></label>
+      <button type="submit" class="button-primary">Send Message</button>
+    </form>
+    <aside class="panel faq-block">
+      <h2>Quick FAQs</h2>
+      <details open>
+        <summary>Can this site help after conversion?</summary>
+        <p>Yes. The pages explain proofing, typography, and validation for post-conversion publishing quality.</p>
+      </details>
+      <details>
+        <summary>Do I need Mangal for Unicode text?</summary>
+        <p>Mangal is common and stable, but you can choose other Unicode-capable Devanagari fonts as needed.</p>
+      </details>
+      <details>
+        <summary>Why are legal pages long?</summary>
+        <p>Long-form legal pages improve clarity for users handling high-impact content or formal publishing workflows.</p>
+      </details>
+    </aside>
+  </div>
+</section>
+
+    <section class="section section-alt">
+      <article class="container longform reveal" data-page-content></article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <strong>Kruti Dev to Unicode Companion</strong>
+        <p>Premium static resource website focused on Hindi conversion quality, font workflows, and Unicode publishing standards.</p>
+      </div>
+      <p class="footer-links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-and-conditions.html">Terms</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
