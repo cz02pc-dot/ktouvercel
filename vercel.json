@@ -1,6 +1,4 @@
 ﻿{
-  "framework": null,
-  "buildCommand": "echo Static deploy",
-  "outputDirectory": ".",
+  "version": 2,
   "cleanUrls": true
 }
